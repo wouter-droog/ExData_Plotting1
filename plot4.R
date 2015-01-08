@@ -16,7 +16,7 @@ par(mfcol=c(2,2))
 # create plots on screen device
 
 # 1 top left
-plot(Global_active_power ~ DateTime, data, type = "l", xlab="", ylab="Global Active Power (kilowatts)")
+plot(Global_active_power ~ DateTime, data, type = "l", xlab="", ylab="Global Active Power")
 
 # 2 bottom left
 plot(Sub_metering_1 ~ DateTime, data, type="l", xlab="", ylab="Energy sub metering")
